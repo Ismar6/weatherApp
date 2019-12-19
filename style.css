@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Monoton&display=swap");
+;
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.wellcomeScreen {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: no-repeat;
+	top: 0;
+	background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/180926101647-typhoon-trami-alexander-gerst-iss-4-full-169.jpg");
+	background-size: cover;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	font-family: 'Monoton', cursive;
+	letter-spacing: 10px;
+	word-spacing: 50px;
+	color: #F97F51;
+	font-size: 400%;
+	text-shadow: 0px 3px white;
+	border: 2px solid #F97F51;
+	border-radius: 50px;
+	border-style: double;
+	background-color: rgba(255, 255, 255, 0.5);
+	text-shadow: 3px 4px 6px gray;
+}
+
+#send {
+	font-family: 'Merriweather';
+	border: solid 3px #9AECDB;
+	border-radius: 13px;
+	color: rgb(47, 46, 46);
+	font-size: 150%;
+	text-shadow: -3px 3px white;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 10px 30px;
+	text-transform: uppercase;
+}
+
+#send:hover {
+	transition-property: all;
+	transition-duration: .6s;
+	transition-timing-function: ease;
+	border: solid 3px rgb(255, 0, 0);
+	background-color: black;
+}
+
+#grad3 {
+	font-family: 'Merriweather';
+	font-size: 130%;
+	padding: 13px 30px;
+	border-color: #CAD3C8;
+	border-radius: 13px;
+	border-style: solid;
+	margin: 30px;
+	;
+}
+
+form {
+	text-align: center;
+}
+
+.main {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: whitesmoke;
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+#currentWeather {
+	border-radius: 13px;
+	border-color: #1B9CFC;
+	box-shadow: 0px 3px 6px #9AECDB;
+	padding: 30px;
+	margin: 10px 10px;
+	width: 50%;
+}
+
+#mainInfo {
+	float: left;
+	width: 50%;
+}
+
+#sideInfo {
+	font-family: 'Special Elite';
+	float: right;
+	width: 50%;
+	font-size: 125%;
+}
+
+#maxTemp {
+	font-family: 'Special Elite';
+	font-size: 160%;
+}
+
+#minTemp {
+	font-family: 'Special Elite';
+	font-size: 87%;
+}
+
+#temperatura {
+	font-family: 'Special Elite';
+	font-size: 280%;
+	font-weight: 900;
+	margin-left: 150px;
+	text-shadow: 3px 3px 4px gray;
+}
+
+#weather {
+	font-family: 'Special Elite';
+	font-size: 150%;
+	margin-left: 70px;
+}
+
+#ikon {
+	margin-left: 185px;
+	width: 15%;
+	height: 15%;
+}
+
+.data1 {
+	font-family: 'Merriweather';
+	font-size: 120%;
+}
+
+#druga {
+	float: right;
+}
+
+#town {
+	font-family: 'Monoton', cursive;
+	text-shadow: 2px 2px 3px black;
+	letter-spacing: 10px;
+	word-spacing: 50px;
+	color: #F97F51;
+	font-size: 200%;
+	margin-left: 82px;
+}
+
+#gumb {
+	font-family: 'Merriweather';
+	border: solid 3px #F97F51;
+	border-radius: 150px;
+	background-image: linear-gradient(to right, #F97F51, #F8EFBA);
+	font-size: 160%;
+	width: 100%;
+	background-color: #9AECDB;
+	box-shadow: 5px 3px 4px 3px #888888;
+	padding: 20px 40px;
+	margin-top: 30px;
+}
+
+#gumb:hover {
+	color: whitesmoke;
+	border: solid 3px whitesmoke;
+}
+
+#next5Days {
+	margin-top: 100px;
+	font-family: 'Monoton', cursive;
+	font-size: 250%;
+	letter-spacing: 10px;
+	word-spacing: 50px;
+	color: #F97F51;
+}
+
+.forecast {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: whitesmoke;
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#forecastWeather {
+	font-family: 'Special Elite';
+	background-color: #9AECDB;
+	width: 90%;
+	border-radius: 30px;
+	padding: 20px 20px;
+	margin: 50px;
+}
+
+#forecastWeather thead {
+	font-family: 'Merriweather';
+	background-color: whitesmoke;
+	font-weight: bolder;
+}
+
+#forecastWeather td {
+	padding: 5px 10px;
+	width: 15%;
+	border: dotted #F97F51 1px;
+	text-align: center;
+}
+
+.footer {
+	bottom: 0;
+	height: 10%;
+	width: 100%;
+	margin: auto;
+	background: #F97F51;
+	font-family: 'Monoton', cursive;
+	letter-spacing: 20px;
+	word-spacing: 50px;
+	color: whitesmoke;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}

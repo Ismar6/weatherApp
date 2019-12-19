@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Weather App</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<section class="wellcomeScreen">
+		<div class="inner"></div>
+		<div class="content">
+			<h1>weather app</h1>
+			<form> <input type='text' id='grad3'> <input type='submit' id='send' value="Find"> </form>
+		</div>
+	</section>
+	<section class="main">
+		<div id="currentWeather">
+			<div id="mainInfo">
+				<h2 id="town"> </h2>
+				<h3 id='temperatura'></h3>
+				<h3 id='weather'></h3>
+			</div>
+			<div id="sideInfo"> <img src="" id="ikon">
+				<p id="pressure" class="data1">Pressure: </p>
+				<p id="humidity" class="data1">Humidity: </p>
+				<p id="windSpeed" class="data1">Wind Speed: </p> <span id="minTemp" class="data1">Min-max: </span> <span style="margin: 1em;">   <   </span> <span id="maxTemp" class="data1"></span> </div> <input type="submit" id="gumb" value="See next 5 days"> </div>
+	</section>
+	<section class="forecast">
+		<div id="next5Days"></div>
+		<div id="forecastWeather"> </div>
+	</section>
+	<section class="footer">ZeForge © 2020</section>
+</body>
+
+</html>
